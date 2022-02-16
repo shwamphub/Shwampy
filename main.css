@@ -1,0 +1,160 @@
+/*
+Sophia Darkmode, (Basic As Shit)
+MIT License
+*/
+
+body {
+	background: #121212;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: #fff;
+	text-decoration: none;
+}
+
+h1 {
+	color: #fff;
+	font-family: monospace, monospace;
+	font-size: 2em;
+	line-height: 1.5em;
+}
+
+h2 {
+	color: #fff;
+	font-family: monospace, monospace;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+h3 {
+	color: #fff;
+	font-family: monospace, monospace;
+	font-size: 1.25em;
+	line-height: 1.5em;
+}
+
+h4 {
+	color: #fff;
+	font-family: monospace, monospace;
+	font-size: 1.1em;
+	line-height: 1.5em;
+}
+
+h5 {
+	color: #fff;
+	font-family: monospace, monospace;
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+
+h6 {
+	color: #fff;
+	font-family: monospace, monospace;
+	font-size: 0.7em;
+	line-height: 1.5em;
+}
+
+sub {
+	color: #fff;
+	font-family: monospace, monospace;
+	font-size: 0.8em;
+	position: relative;
+	top: 0.5em;
+}
+
+sup {
+	color: #fff;
+	font-family: monospace, monospace;
+	font-size: 0.8em;
+	position: relative;
+	top: -0.5em;
+}
+
+hr {
+	border: 0;
+	border-bottom: solid 2px #fff;
+	margin: 2em 0;
+}
+
+hr.major {
+	margin: 3em 0;
+}
+
+blockquote {
+	border-left: solid 6px #121212;
+	font-style: italic;
+	margin: 0 0 2em 0;
+	padding: 0.5em 0 0.5em 1.5em;
+}
+
+code {
+	background: #fff;
+	border-radius: 0.35em;
+	border: solid 2px #121212;
+	font-family: "Courier New", monospace;
+	font-size: 0.9em;
+	margin: 0 0.25em;
+	padding: 0.25em 0.65em;
+}
+
+pre {
+	color: #fff;
+	-webkit-overflow-scrolling: touch;
+	font-family: "Courier New", monospace;
+	font-size: 0.9em;
+	margin: 0 0 2em 0;
+}
+
+pre code {
+	color: #fff;
+	display: block;
+	line-height: 1.75em;
+	padding: 1em 1.5em;
+	overflow-x: auto;
+}
+
+p {
+	color: #fff;
+	font-family: monospace, monospace;
+	font-size: 1em
+}
+a {
+	-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	border-bottom: solid 1px;
+	color: #fff;
+	text-decoration: none;
+}
+
+	a:hover {
+		border-bottom-color: transparent;
+		color: #fff !important;
+		text-decoration: none;
+	}
+	strong, b {
+		color: #fff;
+		font-weight: 400;
+	}
+
+	em, i {
+		color: #fff;
+		font-style: italic;
+	}
+	.align-left {
+		text-align: left;
+	}
+
+	.align-center {
+		text-align: center;
+	}
+
+	.align-right {
+		text-align: right;
+	}
